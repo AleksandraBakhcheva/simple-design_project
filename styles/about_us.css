@@ -1,0 +1,17 @@
+/* styles for about_us.html */
+
+/* normalize.css */
+@import url(https://necolas.github.io/normalize.css/latest/normalize.css);
+
+/* variables and general */
+@import url(../styles/_variables.css);
+@import url(../styles/_general.css);
+
+/* header */
+@import url(../styles/_header.css);
+
+/* main part */
+@import url(../styles/_about_us_main.css);
+
+/* footer */
+@import url(../styles/_footer.css);

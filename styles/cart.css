@@ -1,0 +1,11 @@
+/* styles for cart.html */
+
+/* normalize.css */
+@import url(https://necolas.github.io/normalize.css/latest/normalize.css);
+
+/* variables and general */
+@import url(../styles/_variables.css);
+@import url(../styles/_general.css);
+
+/* main part */
+@import url(../styles/_cart_main.css);
