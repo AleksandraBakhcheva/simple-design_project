@@ -1,1 +1,76 @@
 /* styles for main part for index.html */
+
+.section__header {
+    display: block;
+    top: 0;
+    width: 100vw;
+    height: 88vh;
+    overflow-x: hidden;
+    color: #686868 50%;
+    background-image: url(../assets/index_pictures/background.png);
+}
+.header__cart {
+    position: relative;
+    width: 28vw;
+    height: 15.5vh;
+    left: 76vw;
+    top: 6vh;
+    right: 0;
+    border-radius: 100px;
+    background: #262626;
+    box-shadow: 0px 4px 36px rgba(0, 0, 0, 0.05);
+}
+.cart__text {
+    position: relative;
+    top: 6vh;
+    left: 3.7vw;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.cart__text:last-child {
+    top: -4.3vh;
+    left: 4.8vw;
+    font-size: 10px;
+    line-height: 12px;  
+    color: rgba(255, 255, 255, 0.7);
+}
+.cart__icon {
+    position: relative;
+    left: 11vw;
+    width: 61px;
+    height: 58px;
+    background: #FDFDFD;
+    box-shadow: 0px 4px 36px rgba(0, 0, 0, 0.05);
+    border-radius: 100px;
+}
+.icon_ {
+    position: relative;
+    top: 1.7vh;
+    left: 1.3vw;
+}
+.header__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.header__button {
+    display: block;
+    position: relative;
+    padding: 28px 52px;
+    left: 42vw;
+    top: 0;
+    border: none;
+    border-radius: 100px; 
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background: #BD7048;
+}
