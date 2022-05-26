@@ -5,8 +5,9 @@
     width: 100vw;
     height: 88vh;
     overflow-x: hidden;
+    overflow-y: hidden;
     color: var(--header-font-color) 50%;
-    background-image: url(../assets/index_pictures/background.png);
+    background: url(../assets/index_pictures/background.png) no-repeat;
 }
 .header__cart {
     position: relative;
@@ -36,7 +37,7 @@
 }
 .cart__icon {
     position: relative;
-    left: 11vw;
+    left: 10.5vw;
     width: 61px;
     height: 58px;
     border-radius: 100px;
@@ -58,7 +59,7 @@
 .header__button {
     display: block;
     position: relative;
-    padding: 28px 52px;
+    padding: 27px 52px;
     left: 42vw;
     top: 0;
     border: none;
@@ -68,4 +69,111 @@
     line-height: 18px;
     color: var(--additional-font-color);
     background: var(--button-background);
+}
+.header__scroll {
+    display: block;
+    position: relative;
+    top: 17vh;
+    left: 48vw;
+}
+.header__conditions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 153px;
+    margin-left: 134px;
+    width: 1176px;
+    height: 204px;
+    border-radius: 50px;
+    background: var(--additional-font-color);
+}
+.conditions__item {
+    margin-left: 80px;
+}
+.item_resize {
+    margin-left: 60px;
+}
+.item__icon {
+    position: relative;
+    top: 7.5vh;
+    left: -6vw;
+}
+.icon_resize {
+    top: 6.7vh;
+    left: -5.4vw;
+}
+.icon_modified {
+    position: relative;
+    top: -0.8vh;
+    left: -1.5vw;
+}
+.item__text {
+    width: 13vw;
+    margin-left: -15px;
+    font-size: 1.25em;
+    line-height: 2px;
+}
+.text_resize {
+    font-size: 0.937em;
+    line-height: 18px;
+    opacity: 70%;
+}
+.section__steps {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100vw;
+    margin-top: 200px;
+}
+.steps__numbers {
+    margin-left: 134px;
+    margin-right: 100px;
+}
+.numbers__header {
+    margin-top: 0;
+    margin-bottom: 80px;
+    font-weight: 700;
+    font-size: 2.5em;
+    line-height: 49px;
+}
+.numbers__item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+.numbers__item:last-child {
+    margin-top: 40px;
+}
+.numbers {
+    margin-top: -15px;
+    padding-right: 50px;
+    font-weight: 700;
+    font-size: 4.375em;
+    line-height: 85px;
+    color: var(--numbers-font-color);
+}
+.numbers_resize {
+    padding-right: 63px;
+}
+.numbers__text {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.25em;
+    line-height: 20px;
+}
+.text_modified {
+    margin-top: 10px;
+    margin-right: 69px;
+    font-size: 0.937em;
+    line-height: 18px;
+    opacity: 70%;
+}
+.steps__image {
+    background: url(../assets/index_pictures/green_sofa.png) no-repeat;
+    background-position: right;
+}
+.image_resize {
+    position: relative;
+    top: 14vh;
+    right: 3.6vw;
 }
