@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;600;700&family=Montserrat:wght@400;700&display=swap');
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: var(--main-font-color);
+    font-family: var(--main-font-family);
 }

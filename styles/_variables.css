@@ -1,1 +1,19 @@
 /* variables */
+
+:root {
+/* colors */
+    --main-font-color: #262626;
+    --additional-font-color: #FFFFFF;
+    --black-font-color: #000000;
+    --cart-text-color: rgba(255, 255, 255, 0.7);
+    --cart-icon-color: #FDFDFD;
+    --header-font-color: #686868;
+    --box-shadow: rgba(0, 0, 0, 0.05);
+    --button-background: #BD7048;
+/* colors */
+
+/* fonts */
+    --main-font-family: 'Montserrat Alternates', sans-serif;
+    --additional-font-family: 'Montserrat', sans-serif;
+/* fonts */
+}
