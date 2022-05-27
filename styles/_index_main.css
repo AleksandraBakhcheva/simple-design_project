@@ -170,10 +170,113 @@
 }
 .steps__image {
     background: url(../assets/index_pictures/green_sofa.png) no-repeat;
+    background-size: contain;
     background-position: right;
 }
 .image_resize {
     position: relative;
     top: 14vh;
-    right: 3.6vw;
+    right: 3.5vw;
+}
+.services__header {
+    margin-top: 120px;
+    margin-bottom: 90px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5em;
+    line-height: 49px;
+}
+.services__options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 100vw;
+}
+.options {
+    margin-left: 134px;
+}
+.options__header {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+}
+.options__text {
+    font-size: 1.25em;
+    line-height: 24px;
+}
+.text_weight {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    opacity: 70%;
+}
+.list_border {
+    margin-bottom: 100px;
+    padding-left: 60px;
+    border-left: 1px solid var(--border-line);
+}
+.options__example {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.options__button {
+    margin-right: 35px;
+    padding: 27px 58px;
+    border: none;
+    border-radius: 100px; 
+    font-weight: 600;
+    font-size: 0.937em;
+    line-height: 18px;
+    color: var(--additional-font-color);
+    background: var(--button-background);
+}
+.color_change {
+    padding-right: 45px;
+    font-weight: 600;
+    font-size: 0.937em;
+    line-height: 18px;
+    color: var(--button-background);
+}
+.options:nth-child(2) {
+    margin-left: 0;
+    background: url(../assets/index_pictures/background_plan1.png) no-repeat;
+    background-position: top right;
+    background-size: contain;
+    background-size: 65%;
+}
+.options__picture:nth-child(1) {
+    position: relative;
+    top: 6vh;
+    left: 5vw;
+}
+.options__picture:nth-child(2) {
+    position: relative;
+    left: 9.5vw;
+    bottom: 31vh;
+}
+.options:nth-child(3) {
+    margin-top: -120px;
+    margin-left: 0;
+    background: url(../assets/index_pictures/background_plan2.png) no-repeat;
+}
+.options__image:nth-child(1) {
+    position: relative;
+    top: 9vh;
+    left: 10vw;
+} 
+.options__image:nth-child(2) {
+    position: relative;
+    left: 10vw;
+    bottom: 26.5vh;
+}
+.options:nth-child(4) {
+    margin-top: -50px;
+    margin-left: 85px;
+    margin-right: 58px;
+}
+.button_resize {
+    margin-right: 7px;
 }
