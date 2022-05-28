@@ -1,0 +1,64 @@
+/* styles for room_design.html */
+.design__header {
+    margin-bottom: 33px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5em;
+    line-height: 49px;
+}
+.design__text {
+    text-align: center;
+    font-size: 1.25em;
+    line-height: 30px;
+    opacity: 70%;
+}
+.container__header {
+    margin: 35px 80px 45px 130px;
+    font-size: 1.875em;
+    line-height: 37px;
+}
+.container__header::after {
+    display: inline-block;
+    position: relative;
+    content: '';
+    width: 69vw;
+    height: 1px;
+    margin-left: 20px;
+    vertical-align: middle;
+    background-color: var(--design-line-color);
+}
+.line_length::after {
+    width: 70vw;
+}
+.line_resize::after {
+    width: 56vw;
+}
+.container__line {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 80px 0 130px;
+}
+.container__item {
+    margin: 0;
+}
+.item__font {
+    justify-content: space-between;
+    margin-top: 25px;
+    font-size: 1.25em;
+    line-height: 24px;
+    font-weight: 600;
+    color: var(--design-room-color);
+    border: red solid 1px;
+}
+.item__button {
+    margin-left: 55px;
+    padding: 10px 30px 20px 30px;
+    font-size: 0.937em;
+    line-height: 18px;
+    font-weight: 500;
+    border-radius: 100px;
+    border: none;
+    border: red solid 1px;
+    color: var(--button-background-color);
+    background-color: var(--design-button-color);
+}
