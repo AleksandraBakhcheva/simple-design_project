@@ -18,7 +18,7 @@
     right: 0;
     border-radius: 100px;
     background: var(--main-font-color);
-    box-shadow: 0px 4px 36px var(--box-shadow);
+    box-shadow: 0px 4px 36px var(--box-shadow-color);
 }
 .cart__text {
     position: relative;
@@ -42,7 +42,7 @@
     height: 58px;
     border-radius: 100px;
     background: var(--cart-icon-color);
-    box-shadow: 0px 4px 36px var(--box-shadow);
+    box-shadow: 0px 4px 36px var(--box-shadow-color);
 }
 .icon_position {
     position: relative;
@@ -68,7 +68,7 @@
     font-size: 0.937em;
     line-height: 18px;
     color: var(--additional-font-color);
-    background: var(--button-background);
+    background: var(--button-background-color);
 }
 .header__scroll {
     display: block;
@@ -199,7 +199,7 @@
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 1.875em;
     line-height: 37px;
 }
 .options__text {
@@ -215,7 +215,7 @@
 .list_border {
     margin-bottom: 100px;
     padding-left: 60px;
-    border-left: 1px solid var(--border-line);
+    border-left: 1px solid var(--border-line-color);
 }
 .options__example {
     display: flex;
@@ -223,7 +223,7 @@
     align-items: center;
 }
 .options__button {
-    margin-right: 35px;
+    margin-right: 30px;
     padding: 27px 58px;
     border: none;
     border-radius: 100px; 
@@ -231,14 +231,14 @@
     font-size: 0.937em;
     line-height: 18px;
     color: var(--additional-font-color);
-    background: var(--button-background);
+    background: var(--button-background-color);
 }
 .color_change {
-    padding-right: 45px;
+    margin-right: 35px;
     font-weight: 600;
     font-size: 0.937em;
     line-height: 18px;
-    color: var(--button-background);
+    color: var(--button-background-color);
 }
 .options:nth-child(2) {
     margin-left: 0;
@@ -274,9 +274,103 @@
 }
 .options:nth-child(4) {
     margin-top: -50px;
-    margin-left: 85px;
-    margin-right: 58px;
+    margin-left: 83px;
+    margin-right: 51px;
 }
-.button_resize {
-    margin-right: 7px;
+.section__checklist {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: -45px 134px 125px 161px;
+} 
+.checklist_resize {
+    padding-top: 55px;
+    padding-left: 25px;
+}
+.checklist__header {
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 1.875em;
+    line-height: 37px;
+}
+.checklist__text {
+    padding-bottom: 20px;
+    font-size: 1.25em;
+    line-height: 24px;
+    opacity: 70%;
+}
+.checklist__button, .design__button {
+    padding: 27px 58px;
+    border: none;
+    border-radius: 100px; 
+    font-weight: 600;
+    font-size: 0.937em;
+    line-height: 18px;
+    color: var(--additional-font-color);
+    background: var(--button-background-color);
+}
+.design__header {
+    margin-bottom: 33px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5em;
+    line-height: 49px;
+}
+.design__text {
+    text-align: center;
+    font-size: 1.25em;
+    line-height: 30px;
+    opacity: 70%;
+}
+.container__header {
+    margin: 35px 80px 45px 130px;
+    font-size: 1.875em;
+    line-height: 37px;
+}
+.container__header::after {
+    display: inline-block;
+    position: relative;
+    content: '';
+    width: 69vw;
+    height: 1px;
+    margin-left: 20px;
+    vertical-align: middle;
+    background-color: var(--design-line-color);
+}
+.line_length::after {
+    width: 70vw;
+}
+.line_resize::after {
+    width: 56vw;
+}
+.container__line {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 80px 0 130px;
+}
+.container__item {
+    margin: 0;
+}
+.item__font {
+    justify-content: space-between;
+    margin-top: 25px;
+    font-size: 1.25em;
+    line-height: 24px;
+    font-weight: 600;
+    color: var(--design-room-color);
+    border: red solid 1px;
+}
+.item__button {
+    margin-left: 55px;
+    padding: 10px 30px 20px 30px;
+    font-size: 0.937em;
+    line-height: 18px;
+    font-weight: 500;
+    border-radius: 100px;
+    border: none;
+    border: red solid 1px;
+    color: var(--button-background-color);
+    background-color: var(--design-button-color);
+}
+.design__button {
+    
 }
