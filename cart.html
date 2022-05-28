@@ -6,11 +6,148 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Корзина</title>
+    <link rel="shortcut icon" href="assets/cart_pictures/cart_icon.svg" type="image/svg">
     <link rel="stylesheet" href="styles/cart.css">
 </head>
 
 <body>
-
+    <div class="wrapper">
+        <div class="return"><a class="return__a" href="index.html">Вернуться на главную <img
+                    src="./assets/cart_pictures/home.png" alt=".."></a></div>
+        <form action="#" class="form">
+            <div class="left">
+                <p class="left__title">Ваш заказ:</p>
+                <div class="main-items">
+                    <div class="main-items__title">
+                        <input class="checkbox" id="layout" type="checkbox" name="order" value="plan">
+                        <label for="layout">Планировка</label> <span class="main-items__price">99 000 тг</span>
+                    </div>
+                    <ul class="main-items__details">
+                        <li>2 варианта планировки + финальный </li>
+                        <li>план демонтажа стен</li>
+                        <li>план монтажа перегородок</li>
+                    </ul>
+                </div>
+                <div class="main-items">
+                    <div class="main-items__title">
+                        <input class="checkbox" id="design" type="checkbox" name="order" value="project">
+                        <label for="design">Дизайн-проект</label> <span
+                            class="main-items__price order__price_checkbox">99
+                            000 тг</span>
+                    </div>
+                    <ul class="main-items__details">
+                        <li>2 варианта планировки + финальный</li>
+                        <li>планы демонтажа и монтажа стен</li>
+                        <li>розетки, выключатели, освещение </li>
+                        <li>сантехника</li>
+                        <li>план потолка</li>
+                        <li>план пола и плинтусов</li>
+                        <li>план дверей</li>
+                    </ul>
+                </div>
+                <p class="left__title">Дополнительные услуги</p>
+                <div class="additional">
+                    <div class="additional__item">
+                        <input class="checkbox" id="tender" type="checkbox" name="additional" value="tender">
+                        <label for="tender">Тендер строительных бригад<br /> <span>+
+                                49
+                                000 тг</span> </label></div>
+                    <div class="additional__item">
+                        <input class="checkbox" id="estimate" type="checkbox" name="additional" value="estimate">
+                        <label for="estimate">Составление сметы<br /> <span>+ 49 000
+                                тг</span></label>
+                    </div>
+                    <div class="additional__item">
+                        <input class="checkbox" id="print" type="checkbox" name="additional" value="print">
+                        <label for="print">Печать альбома<br /> <span>+ 19 000 тг</span></label>
+                    </div>
+                </div>
+                <div class="styles">
+                    <p class="left__title">Стили</p>
+                    <div class="styles__items">
+                        <label for="living">Гостиная</label>
+                        <select class="styles-select" name="living" id="living">
+                            <option value="0">нет</option>
+                            <option value="1">[40 000 тг]: Говард Хьюс</option>
+                            <option value="2">[40 000 тг]: Акварель</option>
+                            <option value="3">[40 000 тг]: Ира</option>
+                            <option value="4">[40 000 тг]: Нурс</option>
+                        </select></div>
+                    <div class="styles__items"><label for="bedroom">Спальня</label>
+                        <select class="styles-select" name="bedroom" id="bedroom">
+                            <option value="0">нет</option>
+                            <option value="1">[40 000 тг]: Рокки Бальбоа</option>
+                            <option value="1">[40 000 тг]: Акварель</option>
+                            <option value="1">[40 000 тг]: Нурл свет</option>
+                            <option value="1">[40 000 тг]: Ира</option>
+                        </select></div>
+                    <div class="styles__items"><label for="kid">Детская</label>
+                        <select class="styles-select" name="kid" id="kid">
+                            <option value="0">нет</option>
+                            <option value="1">[40 000 тг]: Синяя</option>
+                            <option value="2">[40 000 тг]: Розовая</option>
+                            <option value="3">[40 000 тг]: Яркая</option>
+                        </select></div>
+                    <div class="styles__items"><label for="bathroom">Санузел</label>
+                        <select class="styles-select" name="bathroom" id="bathroom">
+                            <option value="0">нет</option>
+                            <option value="1">[20 000 тг]: Рокки Бальбоа</option>
+                            <option value="2">[20 000 тг]: Нурл су</option>
+                            <option value="3">[20 000 тг]: Оркенд су 1</option>
+                            <option value="4">[20 000 тг]: Оркенд су 2</option>
+                        </select></div>
+                    <div class="styles__items"><label for="hallway">Прихожая</label>
+                        <select class="styles-select" name="hallway" id="hallway">
+                            <option value="0">нет</option>
+                            <option value="1">[20 000 тг]: Ирина</option>
+                            <option value="2">[20 000 тг]: Акварель</option>
+                            <option value="3">[20 000 тг]: Кадыр</option>
+                        </select></div>
+                    <div class="styles__items"><label for="kitchen">Кухня</label>
+                        <select class="styles-select" name="kitchen" id="kitchen">
+                            <option value="0">нет</option>
+                            <option value="1">[30 000 тг]: Ирина</option>
+                            <option value="2">[30 000 тг]: Акварель</option>
+                            <option value="3">[30 000 тг]: Кадыр</option>
+                        </select></div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="order">
+                    <div class="right__title">Ваш заказ</div>
+                    <div class="order__items">
+                        <input class="checkbox" id="measure" checked type="checkbox" name="order" value="ok">
+                        <label for="measure">Замеры*</label><span class="order__price order__price_checkbox">19 000
+                            тг</span> </div>
+                    <div class="order__items">Планировка <span class="order__price">199 000 тг</span></div>
+                    <div class="order__items">Выбранные комнаты <span class="order__price">100 000 тг</span></div>
+                    <div class="order__items">Тендер строительных <br> бригад <span class="order__price">49 000
+                            тг</span>
+                    </div>
+                    <div class="order__items order__items_total">Итого: <span
+                            class="order__price order__price_total">367 000 тг</span> </div>
+                    <div class="btn">
+                        <button class="btn__item btn__item_pre">Оставить заявку</button>
+                        <button class="btn__item btn__item_pay">Оплатить 367 000 тг</button>
+                        <button class="btn__item btn__item_credit"><img src="./assets/cart_pictures/credit.svg"
+                                alt="..">
+                            Оплатить в
+                            рассрочку </button>
+                    </div>
+                    <div>
+                        <p>Нажимая на кнопку “Оплатить” вы подтверждаете свое согласие с <a class="offer"
+                                href="offer.html">офертой</a></p>
+                    </div>
+                </div>
+                <div class="note">
+                    <p>*Наш специалист выезжает на обьект для проведения замера. </p>
+                    <p> Если вы хотите замерить
+                        квартиру
+                        самостоятельно, откажитесь от этой услуги, а мы предоставим вам необходимые инструкции.</p>
+                </div>
+            </div>
+        </form>
+    </div>
 </body>
 
 </html>
