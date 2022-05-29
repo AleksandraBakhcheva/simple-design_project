@@ -345,32 +345,57 @@
 .container__line {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 0 80px 0 130px;
+    margin: 0 80px 80px 130px;
 }
 .container__item {
     margin: 0;
 }
+.item__line {
+    position: relative;
+    bottom: 5vh;
+    left: 2.2vw;
+}
+.item__line > img:hover {
+    border: 2px solid var(--hover-line-color);
+}
 .item__font {
+    display: flex;
+    width: 25vw;
+    margin-top: 8px;
     justify-content: space-between;
-    margin-top: 25px;
+    align-items: center;
     font-size: 1.25em;
     line-height: 24px;
     font-weight: 600;
     color: var(--design-room-color);
-    border: red solid 1px;
+}
+.item__font > p {
+    padding-left: 27px;
 }
 .item__button {
-    margin-left: 55px;
-    padding: 10px 30px 20px 30px;
-    font-size: 0.937em;
+    padding: 10px 35px 20px 35px;
+    font-size: 0.737em;
     line-height: 18px;
     font-weight: 500;
     border-radius: 100px;
     border: none;
-    border: red solid 1px;
     color: var(--button-background-color);
     background-color: var(--design-button-color);
 }
+.item__button:hover {
+    background-color: var(--button-background-color);
+    color: var(--additional-font-color)
+}
+.button__icon {
+    padding-right: 9px;
+    vertical-align: bottom;
+}
 .design__button {
-    
+    position: relative;
+    left: 41vw;
+    margin-top: 17px;
+}
+.header__button:hover, .options__button:hover, .checklist__button:hover, .design__button:hover {
+    color: var(--button-background-color);
+    background-color: var(--design-button-color);
 }
