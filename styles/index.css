@@ -15,3 +15,27 @@
 
 /* footer */
 @import url(../styles/_footer.css);
+
+/* media queries */
+@media screen and (max-width: 480px) {
+    .section__header {
+        display: flex;
+        flex-direction: column;
+        height: 300vh;
+        background: url(../assets/index_pictures/background_mobile.png) no-repeat;
+    }
+    .header__cart, .header__scroll {
+        display: none;
+    }
+    .header__conditions {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1150px) {
+
+}
