@@ -1,8 +1,9 @@
 /* variables */
 
 :root {
-/* colors */
+    /* colors */
     --main-font-color: #262626;
+    --cart-font-color: #26262680;
     --additional-font-color: #FFFFFF;
     --black-font-color: #000000;
     --cart-text-color: rgba(255, 255, 255, 0.7);
@@ -16,9 +17,15 @@
     --design-room-color: #353535;
     --design-button-color: #FAFAFA;
     --hover-line-color: rgba(30, 30, 226, 0.864);
-/* colors */
+    --order-part-background: #FFF6F1;
+    --cart-font-hover: rgba(0, 0, 0, 0.502);
+    --cart-additional-items: rgba(55, 55, 55, 0.502);
+    --credit-font-color: #f14635;
+    --pay-button-color: #FFDDCB;
+    --return-font-color: rgba(40, 40, 40, 0.702);
+    /* colors */
 
-/* fonts */
+    /* fonts */
     --main-font-family: 'Montserrat Alternates', sans-serif;
-/* fonts */
+    /* fonts */
 }
