@@ -1,5 +1,55 @@
 /* header styles */
-.navbar-brad img {
-    width: 113px;
-    height: 18px;
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 128px;
+    padding-right: 128px;
+    padding-top: 46px;
+    padding-bottom: 32px;
+    height: 110px;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+
+
+}
+
+.header-container__nav a {
+    margin-left: 35px;
+    margin-right: 35px;
+    color: black;
+
+
+
+}
+
+.header-container__nav a:hover {
+    color: #BD7048;
+}
+
+.header-container__phone p {
+    margin: 0px;
+    color: black;
+
+}
+
+.header-container__phone img {
+    margin-right: 10px;
+}
+
+.header-container__nav a {
+    color: black;
+
+}
+
+.header-container__logo p {
+    margin: 0px;
+
+}
+
+.header-container__logo p:hover {
+    color: #BD7048;
+
+
 }
