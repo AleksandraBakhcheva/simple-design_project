@@ -1,4 +1,4 @@
-/* styles for index.html */
+/* styles for index.html and media queries */
 
 /* normalize.css */
 @import url(https://necolas.github.io/normalize.css/latest/normalize.css);
@@ -18,17 +18,94 @@
 
 /* media queries */
 @media screen and (max-width: 480px) {
-    .section__header {
-        display: flex;
-        flex-direction: column;
-        height: 300vh;
-        background: url(../assets/index_pictures/background_mobile.png) no-repeat;
+    * {
+        width: auto;
+
     }
-    .header__cart, .header__scroll {
+    body {
+        width: fit-content;
+        margin: 0;
+        padding: 0;
+    }
+    .section__header {
+        
+        
+        /* flex-direction: column;
+        background: url(../assets/index_pictures/background_mobile.png) no-repeat;
+        background-position: content; */
+        background-size: contain;
+    }
+    .header__title {
+
+    }
+    .header__button {
+        min-width: fit-content;
+        left: 0;
+        padding: px 0px;
+    }
+    .header__cart, .header__scroll, .steps__image, .section__checklist img, .design__text, .item_hidden, 
+    .questions__text > hidden {
         display: none;
+    }
+    .services__options {
+        grid-template-columns: 1fr;
+    }
+    .services__header {
+        margin-bottom: 0;
+    }
+    .options:nth-child(2), .options:nth-child(3) {
+        background: none;
+    }
+    .options:nth-child(2) {
+        order: -1;
+    }
+    .list_border {
+        border: none;
     }
     .header__conditions {
         flex-direction: column;
+    }
+    .section__checklist {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+        margin-top: 30px;
+        padding: 10px 60px 60px 130px;
+        background: var(--mobile-background-color);
+        background-size: cover;
+    }
+    .container__line {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .section__test {
+        padding-left: 64px;
+        background: url(../assets/index_pictures/background_test_mobile.png) no-repeat;
+        background-size: cover;
+    }
+    .item__line {
+        bottom: 8vh;
+        left: 12.2vw;
+    }
+    .questions__box {
+        margin-bottom: 79px;
+        padding-left: 70px;
+        padding-right: 66px;
+    }
+    .services__header, .checklist__header, .test__header, .design__header, .container__header {
+        margin-top: 0;
+        font-size: 1.562em;
+        line-height: 30px;
+    }
+    .design__header {
+        margin-top: 30px;
+    }
+    .questions__header {
+        margin-bottom: 30px;
+        font-size: 1.25em;
+        line-height: 24px;
+    }
+    .questions__item, .questions__text, .checklist__text {
+        font-size: 0.937em;
+        line-height: 18px;
     }
 }
 
