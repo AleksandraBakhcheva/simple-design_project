@@ -61,4 +61,8 @@
         display: none;
     }
 
+    .header-container__nav {
+        flex-direction: column;
+    }
+
 }
