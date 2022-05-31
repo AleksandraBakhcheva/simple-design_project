@@ -35,9 +35,6 @@
         background-position: content; */
         background-size: contain;
     }
-    .header__title {
-
-    }
     .header__button {
         min-width: fit-content;
         left: 0;
