@@ -1,1 +1,53 @@
 /* footer styles */
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 154px;
+    padding-right: 134px;
+    height: 284px;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+
+}
+
+.footer-container__nav a {
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.footer-container__terms a {
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.footer-container__logo p {
+    margin-top: 0px;
+
+
+}
+
+.footer-container__phone p {
+    margin-top: 0px;
+    color: black;
+}
+
+.footer-container__phone img {
+    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+}
+
+.footer-container__phone a {
+    color: black;
+}
+
+@media screen and (max-width:767px) {
+    .footer-container__phone {
+        display: none;
+    }
+
+}
