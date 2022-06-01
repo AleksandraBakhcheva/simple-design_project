@@ -1,0 +1,38 @@
+/* media queries for room_design.html */
+
+@media screen and (max-width: 300px) {
+    .design__header {
+        margin-left: 125px;
+    }
+    .design__text {
+        display: none;
+    }
+    .container__header {
+        width: 290px;
+        margin: 35px 0px 15px 40px;
+        font-size: 1.5em;
+        line-height: 30px;
+    }
+    .container__header::after, .line_length::after, .line_resize::after {
+        display: none;
+    }
+    .container__line {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 80px 80px 40px;
+    }
+    .item__line {
+        left: 12vw;
+    }
+    .item__font {
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    .item__font > p {
+        padding-left: 27px;
+    }
+    .item__button {
+        display: inline-flex;
+        align-items: flex-end;
+        
+    }
+}

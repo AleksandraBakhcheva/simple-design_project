@@ -6,24 +6,35 @@
         margin: 0;
         padding: 0;
     }
-    .header__cart, .header__scroll, .steps__image, .section__checklist img, .design__text, .item_hidden, .questions__text > hidden {
+    .cart__text, .header__scroll, .steps__image, .section__checklist img, .design__text, .item_hidden, .questions__text > hidden {
         display: none;
+    }
+    .header__cart {
+        background: none;
+    }
+    .cart__icon {
+        left: 180.5vw;
+        top: 10vh;
+    }
+    .icon_position {
+        top: 2.7vh;
+        left: 8.3vw;
     }
     .section__header {
         width: auto;
-        height: 150vh;
+        height: 190vh;
         background: url(../assets/index_pictures/background_mobile.png);
         background-size: cover;
     }
     .header__title {
-        width: 163vw;
+        width: 210vw;
         margin-top: 293px;
-        margin-left: 100px;
+        margin-left: 110px;
         text-align: center;
     }
     .header__button {
-        left: 60vw;
-        top: 10vh;
+        left: 80vw;
+        top: 0;
         padding: 34px 84px;
     }
     .header__conditions {
@@ -35,7 +46,7 @@
         height: 204px;
     }
     .conditions__item {
-        margin-top: 170px;
+        margin-top: 180px;
         margin-left: 180px;
         margin-bottom: 0;
     }
@@ -43,14 +54,20 @@
         margin-top: 0;
     }
     .icon_modified {
-        left: 11.5vw;
+        left: 17vw;
     }
     .item__text {
         width: 64vw;
         margin-left: 40px; 
     }
+    .item__icon {
+        top: 11vh;
+    }
+    .icon_resize {
+        top: 10.7vh;
+    }
     .numbers__header {
-        margin-top: 150px;
+        margin-top: 194px;
         margin-bottom: 60px;
         margin-right: 80px;
     }
@@ -59,7 +76,7 @@
     }
     .numbers__text {
         position: relative;
-        width: 90vw;
+        width: 130vw;
         left: -80px;
     }
     .numbers_resize {
@@ -178,30 +195,548 @@
     }
 }
 @media screen and (min-width: 250px) and (max-width: 349px) {
-
+    body {
+        width: fit-content;
+        margin: 0;
+        padding: 0;
+    }
+    .cart__text, .header__scroll, .steps__image, .section__checklist img, .design__text, .item_hidden, .questions__text > hidden {
+        display: none;
+    }
+    .header__cart {
+        background: none;
+    }
+    .cart__icon {
+        left: 97vw;
+        top: 10vh;
+    }
+    .icon_position {
+        top: 2.4vh;
+        left: 6.3vw;
+    }
+    .section__header {
+        width: auto;
+        height: 150vh;
+        background: url(../assets/index_pictures/background_mobile.png);
+        background-size: cover;
+    }
+    .header__title {
+        width: 163vw;
+        margin-top: 240px;
+        margin-left: 75px;
+        text-align: center;
+    }
+    .header__button {
+        left: 60vw;
+        top: 10vh;
+        padding: 34px 84px;
+    }
+    .header__conditions {
+        position: absolute;
+        flex-direction: column;
+        margin-top: 140px;
+        margin-left: 56px;
+        width: 514px;
+        height: 204px;
+    }
+    .conditions__item {
+        margin-top: 170px;
+        margin-left: 180px;
+        margin-bottom: 0;
+    }
+    .item_resize {
+        margin-top: 0;
+    }
+    .icon_modified {
+        left: 11.5vw;
+    }
+    .item__text {
+        width: 64vw;
+        margin-left: 40px; 
+    }
+    .numbers__header {
+        margin-top: 150px;
+        margin-bottom: 60px;
+        margin-right: 80px;
+    }
+    .numbers__item {
+        margin-left: 59px;
+    }
+    .numbers__text {
+        position: relative;
+        width: 84vw;
+        left: -80px;
+    }
+    .numbers_resize {
+        margin-left: 15px;
+    }
+    .services__options {
+        grid-template-columns: 1fr;
+    }
+    .options {
+        margin-left: 80px;
+    }
+    .services__header {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .options:nth-child(1) {
+        margin-top: -170px;
+    }
+    .options:nth-child(2), .options:nth-child(3) {
+        background: none;
+    }
+    .options:nth-child(2) {
+        order: -1;
+    }
+    .options:nth-child(3) {
+        margin-top: -390px;
+    }
+    .options:nth-child(4) {
+        margin-left: 80px;
+        margin-top: -136px;
+    }
+    .options__image:nth-child(1) {
+        left: 5vw;
+    }
+    .list_border {
+        margin-bottom: 35px;
+        padding-left: 20px;
+        border: none;
+    }
+    .options__example {
+        align-items: baseline;
+        flex-wrap: wrap;
+    }
+    .options__button {
+        margin-right: 64px;
+        padding: 27px 100px;
+    }
+    .section__checklist {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+        margin-top: 30px;
+        padding: 10px 60px 60px 130px;
+        background: var(--mobile-background-color);
+        background-size: cover;
+    }
+    .section__test {
+        padding-left: 64px;
+        background: url(../assets/index_pictures/background_test_mobile.png) no-repeat;
+        background-size: cover;
+    }
+    .container__line {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container__header {
+        margin-bottom: 20px;
+    }
+    .container__header::after {
+        width: 58vw;
+    }
+    .container__item {
+        margin-right: 50px;
+    }
+    .line_length::after {
+        width: 62vw;
+    }
+    .line_resize::after {
+        width: 12vw;
+    }
+    .item__line {
+        bottom: 8vh;
+        left: 8.2vw;
+    }
+    .item__button {
+        display: inline-flex;
+        align-items: center;
+    }
+    .design__button {
+        left: 48vw;
+    }
+    .questions__box {
+        margin-bottom: 79px;
+        padding-left: 70px;
+        padding-right: 66px;
+    }
+    .numbers__header, .options__header, .services__header, .checklist__header, .test__header, .design__header, .container__header {
+        font-size: 1.562em;
+        line-height: 30px;
+    }
+    .numbers__header {
+        text-align: center;
+    }
+    .numbers {
+        padding-right: 0;
+    }
+    .design__header {
+        margin-top: 30px;
+    }
+    .questions__header {
+        margin-bottom: 30px;
+        font-size: 1.25em;
+        line-height: 24px;
+    }
+    .options__text, .questions__item, .questions__text, .checklist__text {
+        font-size: 0.937em;
+        line-height: 18px;
+    }
 }
-
-
-
-@media screen and (min-width: 350px) and (max-width:767px) {
-
+@media screen and (min-width: 350px) and (max-width: 500px) {
+    body {
+        width: fit-content;
+        margin: 0;
+        padding: 0;
+    }
+    .cart__text, .header__scroll, .steps__image, .section__checklist img, .design__text, .item_hidden, .questions__text > hidden {
+        display: none;
+    }
+    .header__cart {
+        background: none;
+    }
+    .cart__icon {
+        left: 80vw;
+        top: 10vh;
+    }
+    .icon_position {
+        top: 2.2vh;
+        left: 5vw;
+    }
+    .section__header {
+        width: auto;
+        height: 150vh;
+        background: url(../assets/index_pictures/background_mobile.png);
+        background-size: cover;
+    }
+    .header__title {
+        width: 163vw;
+        margin-top: 400px;
+        margin-left: 70px;
+        text-align: center;
+    }
+    .header__button {
+        left: 60vw;
+        top: 25vh;
+        padding: 34px 84px;
+    }
+    .header__conditions {
+        position: absolute;
+        flex-direction: column;
+        margin-top: 320px;
+        margin-left: 90px;
+        width: 514px;
+        height: 204px;
+    }
+    .conditions__item {
+        margin-top: 100px;
+        margin-left: 180px;
+        margin-bottom: 0;
+    }
+    .item_resize {
+        margin-top: 0;
+    }
+    .icon_modified {
+        left: 11.5vw;
+    }
+    .item__text {
+        width: 64vw;
+        margin-left: 40px; 
+    }
+    .numbers__header {
+        margin-top: 250px;
+        margin-bottom: 60px;
+        margin-right: 80px;
+    }
+    .numbers__item {
+        margin-left: 59px;
+    }
+    .numbers__text {
+        position: relative;
+        width: 82vw;
+        left: -80px;
+    }
+    .numbers_resize {
+        margin-left: 15px;
+    }
+    .services__options {
+        grid-template-columns: 1fr;
+    }
+    .options {
+        margin-left: 80px;
+    }
+    .services__header {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .options:nth-child(1) {
+        margin-top: -170px;
+    }
+    .options:nth-child(2), .options:nth-child(3) {
+        background: none;
+    }
+    .options:nth-child(2) {
+        order: -1;
+    }
+    .options:nth-child(3) {
+        margin-top: -390px;
+    }
+    .options:nth-child(4) {
+        margin-left: 80px;
+        margin-top: -136px;
+    }
+    .options__image:nth-child(1) {
+        left: 5vw;
+    }
+    .list_border {
+        margin-bottom: 35px;
+        padding-left: 20px;
+        border: none;
+    }
+    .options__example {
+        align-items: baseline;
+        flex-wrap: wrap;
+    }
+    .options__button {
+        margin-right: 64px;
+        padding: 27px 100px;
+    }
+    .section__checklist {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+        margin-top: 30px;
+        padding: 10px 60px 60px 130px;
+        background: var(--mobile-background-color);
+        background-size: cover;
+    }
+    .section__test {
+        padding-left: 64px;
+        background: url(../assets/index_pictures/background_test_mobile.png) no-repeat;
+        background-size: cover;
+    }
+    .container__line {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container__header {
+        margin-bottom: 20px;
+    }
+    .container__header::after {
+        width: 58vw;
+    }
+    .container__item {
+        margin-right: 50px;
+    }
+    .line_length::after {
+        width: 62vw;
+    }
+    .line_resize::after {
+        width: 12vw;
+    }
+    .item__line {
+        bottom: 8vh;
+        left: 8.2vw;
+    }
+    .item__button {
+        display: inline-flex;
+        align-items: center;
+    }
+    .design__button {
+        left: 48vw;
+    }
+    .questions__box {
+        margin-bottom: 220px;
+        padding-left: 70px;
+        padding-right: 66px;
+    }
+    .numbers__header, .options__header, .services__header, .checklist__header, .test__header, .design__header, .container__header {
+        font-size: 1.562em;
+        line-height: 30px;
+    }
+    .numbers__header {
+        text-align: center;
+    }
+    .numbers {
+        padding-right: 0;
+    }
+    .design__header {
+        margin-top: 30px;
+    }
+    .questions__header {
+        margin-bottom: 30px;
+        font-size: 1.25em;
+        line-height: 24px;
+    }
+    .options__text, .questions__item, .questions__text, .checklist__text {
+        font-size: 0.937em;
+        line-height: 18px;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-
-}
-
-
-@media screen and (min-width: 1024px) {
-
+@media screen and (min-width: 501px) and (max-width: 767px) {
+    body {
+        width: fit-content;
+        margin: 0;
+        padding: 0;
+    }
+    .cart__text, .header__scroll, .steps__image, .section__checklist img, .design__text, .item_hidden, .questions__text > hidden {
+        display: none;
+    }
+    .header__cart {
+        background: none;
+    }
+    .cart__icon {
+        left: 80vw;
+        top: 10vh;
+    }
+    .icon_position {
+        top: 2.2vh;
+        left: 5vw;
+    }
+    .section__header {
+        width: auto;
+        height: 150vh;
+        background: url(../assets/index_pictures/background_mobile.png);
+        background-size: cover;
+    }
+    .header__title {
+        width: 163vw;
+        margin-top: 400px;
+        margin-left: 70px;
+        text-align: center;
+    }
+    .header__button {
+        left: 60vw;
+        top: 25vh;
+        padding: 34px 84px;
+    }
+    .header__conditions {
+        position: absolute;
+        flex-direction: column;
+        margin-top: 320px;
+        margin-left: 90px;
+        width: 514px;
+        height: 204px;
+    }
+    .conditions__item {
+        margin-top: 100px;
+        margin-left: 180px;
+        margin-bottom: 0;
+    }
+    .item_resize {
+        margin-top: 0;
+    }
+    .icon_modified {
+        left: 11.5vw;
+    }
+    .item__text {
+        width: 64vw;
+        margin-left: 40px; 
+    }
+    .numbers__header {
+        margin-top: 250px;
+        margin-bottom: 60px;
+        margin-right: 80px;
+    }
+    .numbers__item {
+        margin-left: 59px;
+    }
+    .numbers__text {
+        position: relative;
+        width: 82vw;
+        left: -80px;
+    }
+    .numbers_resize {
+        margin-left: 15px;
+    }
+    .services__options {
+        grid-template-columns: 1fr;
+    }
+    .options {
+        margin-left: 80px;
+    }
+    .services__header {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .options:nth-child(1) {
+        margin-top: -170px;
+    }
+    .options:nth-child(2), .options:nth-child(3) {
+        background: none;
+    }
+    .options:nth-child(2) {
+        order: -1;
+    }
+    .options:nth-child(3) {
+        margin-top: -390px;
+    }
+    .options:nth-child(4) {
+        margin-left: 80px;
+        margin-top: -136px;
+    }
+    .options__image:nth-child(1) {
+        left: 5vw;
+    }
+    .options__example {
+        align-items: baseline;
+        flex-wrap: wrap;
+    }
+    .options__button {
+        margin-right: 64px;
+        padding: 27px 100px;
+    }
+    .section__checklist {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+        margin-top: 30px;
+        padding: 10px 60px 60px 130px;
+        background: var(--mobile-background-color);
+        background-size: cover;
+    }
+    .section__test {
+        padding-left: 64px;
+        background: url(../assets/index_pictures/background_test_mobile.png) no-repeat;
+        background-size: cover;
+    }
+    .container__line {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container__header {
+        margin-bottom: 20px;
+    }
+    .container__header::after {
+        width: 58vw;
+    }
+    .container__item {
+        margin-right: 50px;
+    }
+    .line_length::after {
+        width: 62vw;
+    }
+    .line_resize::after {
+        width: 12vw;
+    }
+    .item__line {
+        bottom: 8vh;
+        left: 8.2vw;
+    }
+    .item__button {
+        display: inline-flex;
+        align-items: center;
+    }
+    .design__button {
+        left: 48vw;
+    }
+    .questions__box {
+        margin-bottom: 220px;
+        padding-left: 70px;
+        padding-right: 66px;
+    }
+    .numbers__header {
+        text-align: center;
+    }
+    .numbers {
+        padding-right: 0;
+    }
+    .design__header {
+        margin-top: 30px;
+    }
 }
