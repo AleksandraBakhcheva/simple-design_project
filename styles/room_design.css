@@ -15,3 +15,6 @@
 
 /* footer */
 @import url(../styles/_footer.css);
+
+/* media queries */
+@import url(../styles/_room_design_media-queries.css);

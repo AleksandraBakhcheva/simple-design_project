@@ -21,12 +21,17 @@
     --cart-font-hover: rgba(0, 0, 0, 0.502);
     --cart-additional-items: rgba(55, 55, 55, 0.502);
     --credit-font-color: #f14635;
-    --pay-button-color: #FFDDCB;
+    --pay-button-color: #ffddcb;
+    --sample-button-color: #FFDBC9;
     --return-font-color: rgba(40, 40, 40, 0.702);
     --mobile-background-color: #FFF0E9;
+    --price-title-backgound: #DB916B;
+    --price-background-color: #E5E5E5;
+
     /* colors */
 
     /* fonts */
     --main-font-family: 'Montserrat Alternates', sans-serif;
+    --add-font-family: 'Montserrat', sans-serif;
     /* fonts */
 }

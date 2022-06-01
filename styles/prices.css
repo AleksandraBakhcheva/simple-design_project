@@ -1,0 +1,58 @@
+/* styles for prices.html */
+
+/* normalize.css */
+@import url(https://necolas.github.io/normalize.css/latest/normalize.css);
+
+/* variables and general */
+@import url(../styles/_variables.css);
+@import url(../styles/_general.css);
+
+/* header */
+@import url(../styles/_header.css);
+
+/* footer */
+@import url(../styles/_footer.css);
+
+/* questions */
+@import url(../styles/_questions_part.css);
+
+/* main part */
+@import url(../styles/_prices.css);
+
+/* media queries */
+
+@media screen and (max-width: 480px) {
+    .main__text {
+        font-size: 0.9375rem;
+    }
+
+    .title,
+    .add-services__title {
+        font-size: 1.25rem;
+    }
+
+    .figcaption {
+        font-size: 0.9375rem;
+        line-height: 1.5rem;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .title_left {
+        margin-right: 0px;
+    }
+
+    .columns {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .add-services__title {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:1150px) {}
