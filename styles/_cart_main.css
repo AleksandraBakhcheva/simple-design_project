@@ -130,6 +130,10 @@
     padding: 2.1875rem 3.125rem 2.56rem;
 }
 
+.add-text {
+    font-family: var(--add-font-family);
+}
+
 .main-items:hover {
     border: 1px solid var(--button-background-color);
     border-radius: 0.9375rem;
