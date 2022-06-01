@@ -1,0 +1,157 @@
+/* styles for main part for prices.html */
+.wrapper {
+    background-color: var(--price-background-color);
+}
+
+.main {
+    padding-top: 5rem;
+    padding-bottom: 9rem;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    justify-items: center;
+}
+
+.title {
+    display: flex;
+    height: 5.625rem;
+    border-radius: 0.9375rem;
+    font-family: var(--main-font-family);
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 32rem;
+    color: var(--additional-font-color);
+    justify-content: center;
+    align-items: center;
+}
+
+.title img {
+    margin-right: 0.75rem;
+}
+
+.title_left {
+    background: var(--button-background-color);
+    margin-right: -1.25rem;
+}
+
+.title_right {
+    background: var(--price-title-backgound);
+
+}
+
+.plan,
+.project {
+    width: 80%;
+    margin: auto;
+}
+
+.main__text {
+    font-family: var(--add-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: var(--black-font-color);
+}
+
+.main__text_bold {
+    font-weight: 500;
+}
+
+.price-total {
+    display: flex;
+    margin-bottom: 3.125rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-total__price {
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.875rem;
+    line-height: 2.3125rem;
+    color: var(--button-background-color);
+}
+
+.main-btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.19rem;
+    margin-bottom: 3.125rem;
+    justify-content: center;
+}
+
+.main-btn__item {
+    width: 15.8125rem;
+    height: 3.5625rem;
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9375rem;
+    line-height: 1.125rem;
+    border-radius: 100px;
+    text-decoration: none;
+    color: var(--additional-font-color);
+    border: none;
+}
+
+.main-btn__item_cart {
+    background: var(--button-background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart_icon {
+    margin-right: 0.75rem;
+}
+
+.main-btn__item_sample {
+    background: var(--sample-button-color);
+    color: var(--button-background-color);
+}
+
+.main-btn__item_cart:hover,
+.main-btn__item_sample:hover {
+    color: var(--button-background-color);
+    background-color: var(--design-button-color);
+}
+
+.add-services {
+    margin: 0 auto;
+}
+
+.add-services__title {
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3.0625rem;
+    color: var(--main-font-color);
+    text-align: center;
+}
+
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*overflow: hidden;*/
+}
+
+.add-services__item img {
+    border-radius: 20px;
+}
+
+.figcaption {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: var(--design-room-color);
+    margin-top: 2.375rem;
+    text-align: center;
+}

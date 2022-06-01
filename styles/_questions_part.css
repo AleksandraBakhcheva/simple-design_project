@@ -1,0 +1,91 @@
+/* styles for questions part prices.html */
+
+.questions__header {
+    margin-top: 75px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5em;
+    line-height: 49px;
+}
+
+.questions__box {
+    margin-bottom: 100px;
+    padding-left: 8.1875rem;
+    padding-right: 7.6875rem;
+}
+
+.questions__item {
+    display: flex;
+    align-items: center;
+    height: 12vh;
+    margin-bottom: 21px;
+    font-size: 1.25em;
+    line-height: 24px;
+    font-weight: 600;
+    font-size: 1.25em;
+    line-height: 24px;
+    border-radius: 100px;
+    background-color: var(--design-button-color);
+}
+
+.questions__text {
+    padding: 13px 15px 10px 26px;
+    font-size: 1.25em;
+    line-height: 24px;
+    opacity: 70%;
+}
+
+.questions__icon {
+    margin-left: 1.5625rem;
+    margin-right: 1.875rem;
+}
+
+.icon_change {
+    margin-left: 0.9375rem;
+    margin-right: 0.9375rem;
+}
+
+/* media queries */
+@media screen and (max-width: 480px) {
+    .questions__box {
+        margin-bottom: 4.94rem;
+        padding-left: 4.375rem;
+        padding-right: 4.125rem;
+    }
+
+    .questions__header {
+        margin-bottom: 1.875rem;
+        font-size: 1.25em;
+        line-height: 1.5rem;
+    }
+
+    .questions__item {
+        width: 19.25rem;
+        height: 3.06rem;
+        font-size: 0.937em;
+        line-height: 1.25rem;
+    }
+
+    .questions__item img {
+        width: 1.75rem;
+    }
+
+    .questions__text {
+        font-size: 0.937em;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .hidden {
+        display: none;
+    }
+
+    .questions__header {
+        font-size: 2rem;
+    }
+
+    .questions__item {
+        width: auto;
+        height: 4.375rem;
+    }
+}
