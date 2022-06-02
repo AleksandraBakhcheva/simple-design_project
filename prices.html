@@ -16,9 +16,8 @@
         <main class="main">
             <div class="columns">
                 <div class="left main__text">
-                    <div class="title title_left"><img src="./assets/prices_pictures/title-line.svg" alt="line">
-                        Планировка
-                    </div>
+                    <div class="title title_left"><img src="./assets/prices_pictures/title-line.svg"
+                            alt="line">Планировка</div>
                     <section class="plan">
                         <p class="main__spec">Мы разработаем для вас уникальное планировочное решение
                             квартиры, которое
@@ -61,8 +60,8 @@
                     </section>
                 </div>
                 <div class="right main__text">
-                    <div class="title title_right"><img src="./assets/prices_pictures/title-line.svg"
-                            alt="line">Дизайн-проект</div>
+                    <div class="title title_right"><img src="./assets/prices_pictures/title-line.svg" alt="line">
+                        Дизайн-проект </div>
                     <section class="project">
                         <p class="main__spec">Мы разработаем для вас уникальное планировочное решение
                             квартиры, которое
@@ -118,20 +117,38 @@
             <section class="add-services">
                 <h2 class="add-services__title">Дополнительные услуги</h2>
                 <div class="pictures">
-                    <figure class="add-services__item">
-                        <img src="./assets/prices_pictures/add_service1.jpg" alt="..">
-                        <figcaption class="figcaption">Тендер
-                            строительных бригад</figcaption>
-                    </figure>
-                    <figure class="add-services__item">
-                        <img src="./assets/prices_pictures/add_service2.jpg" alt="..">
-                        <figcaption class="figcaption">Составление сметы</figcaption>
-                    </figure>
-                    <figure class="add-services__item">
-                        <img src="./assets/prices_pictures/add_service3.jpg" alt="..">
-                        <figcaption class="figcaption">Печать
-                            альбома</figcaption>
-                    </figure>
+                    <div class="add-services__item">
+                        <picture>
+                            <source srcset="./assets/prices_pictures/add_service1-min.jpg" type="image/jpg"
+                                media="(max-width: 480px)">
+                            <source srcset="./assets/prices_pictures/add_service1.jpg" type="image/jpg"
+                                media="(min-width: 481px)">
+                            <img src="./assets/prices_pictures/add_service1.jpg" alt="..">
+                        </picture>
+                        <div class="figcaption">Тендер
+                            строительных бригад</div>
+                    </div>
+                    <div class="add-services__item">
+                        <picture>
+                            <source srcset="./assets/prices_pictures/add_service2-min.jpg" type="image/jpg"
+                                media="(max-width: 480px)">
+                            <source srcset="./assets/prices_pictures/add_service2.jpg" type="image/jpg"
+                                media="(min-width: 481px)">
+                            <img src="./assets/prices_pictures/add_service2.jpg" alt="..">
+                        </picture>
+                        <div class="figcaption">Составление сметы</div>
+                    </div>
+                    <div class="add-services__item">
+                        <picture>
+                            <source srcset="./assets/prices_pictures/add_service3-min.jpg" type="image/jpg"
+                                media="(max-width: 480px)">
+                            <source srcset="./assets/prices_pictures/add_service3.jpg" type="image/jpg"
+                                media="(min-width: 481px)">
+                            <img src="./assets/prices_pictures/add_service3.jpg" alt="..">
+                        </picture>
+                        <div class="figcaption">Печать
+                            альбома</div>
+                    </div>
                 </div>
             </section>
             <section class="questions">

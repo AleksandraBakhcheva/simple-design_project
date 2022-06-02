@@ -137,7 +137,8 @@
 .pictures {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    gap: 3rem;
     /*overflow: hidden;*/
 }
 
@@ -152,6 +153,6 @@
     font-size: 1.25rem;
     line-height: 1.5rem;
     color: var(--design-room-color);
-    margin-top: 2.375rem;
+    margin-top: 2rem;
     text-align: center;
 }

@@ -28,12 +28,13 @@
 
     .title,
     .add-services__title {
-        font-size: 1.25rem;
+        font-size: 0.9rem;
     }
 
     .figcaption {
         font-size: 0.9375rem;
         line-height: 1.5rem;
+        margin-top: 1rem;
     }
 }
 
