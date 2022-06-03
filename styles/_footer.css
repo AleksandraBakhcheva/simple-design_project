@@ -54,3 +54,25 @@
         display: none;
     }
 }
+
+.rights {
+    display: block;
+    background-color: #262626;
+    color: #FFFFFF;
+    text-align: center;
+    height: 96px;
+    /* -moz-border-radius-bottomright: 10px; */
+    /* -moz-border-radius-bottomleft: 10px; */
+
+}
+
+.rights p {
+    padding-top: 41px;
+    padding-bottom: 38px;
+    padding-left: 620px;
+    padding-right: 576px;
+    font-size: 15px;
+    width: 244px;
+    height: 17px;
+
+}
