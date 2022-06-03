@@ -96,6 +96,7 @@
     text-decoration: none;
     color: var(--additional-font-color);
     border: none;
+    transition-duration: 0.7s;
 }
 
 .main-btn__item_cart {
@@ -114,8 +115,8 @@
     color: var(--button-background-color);
 }
 
-.main-btn__item_cart:hover,
-.main-btn__item_sample:hover {
+.main-btn__item:hover {
+    transition-duration: 1s;
     color: var(--button-background-color);
     background-color: var(--design-button-color);
 }
@@ -147,7 +148,6 @@
 }
 
 .figcaption {
-    font-family: 'Montserrat Alternates';
     font-style: normal;
     font-weight: 600;
     font-size: 1.25rem;

@@ -1,0 +1,99 @@
+@import url(https://necolas.github.io/normalize.css/latest/normalize.css);
+
+/* variables and general */
+@import url(../styles/_variables.css);
+@import url(../styles/_general.css);
+
+/* footer styles */
+.footer-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.9375rem;
+    color: var(--black-font-color);
+    background-color: var(--additional-font-color);
+
+}
+
+.footer-container__nav a {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: var(--cart-font-hover);
+    text-decoration: none;
+}
+
+
+.footer-container__terms a {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: var(--cart-font-hover);
+    text-decoration: none;
+}
+
+.footer-container__nav a:hover,
+.footer-container__terms a:hover {
+    color: var(--button-background-color);
+}
+
+.footer-container__logo p {
+    margin-top: 0px;
+}
+
+.footer-container__phone {
+    text-align: end;
+}
+
+.footer-container__phone p {
+    margin-top: 0px;
+    font-weight: 500;
+    font-size: 0.9375rem;
+    line-height: 1.125rem;
+    color: var(--cart-additional-items);
+}
+
+.footer-container__phone img {
+    margin-right: 15px;
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.footer-container__phone a {
+    font-weight: 600;
+    font-size: 0.9375rem;
+    line-height: 1.125rem;
+    text-decoration: none;
+    color: var(--black-font-color);
+}
+
+.rights {
+    display: flex;
+    background-color: var(--main-font-color);
+    color: var(--additional-font-color);
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+
+}
+
+.rights p {
+    font-weight: 500;
+    font-size: 0.9375rem;
+    line-height: 1.125rem;
+}
+
+@media screen and (max-width:767px) {
+
+    .footer-container__nav,
+    .footer-container__terms {
+        display: none;
+    }
+
+}

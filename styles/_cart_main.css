@@ -2,7 +2,8 @@
 
 .wrapper {
     max-width: 90%;
-    margin: 0 auto;
+    margin: auto;
+    margin-bottom: 5rem;
 }
 
 .return {
@@ -68,6 +69,7 @@
     font-size: 0.9375rem;
     line-height: 1rem;
     border: none;
+    transition-duration: 0.7s;
 }
 
 .btn__item_pre {
@@ -77,6 +79,7 @@
 
 .btn__item_pre:hover,
 .btn__item_pay:hover {
+    transition-duration: 1s;
     color: var(--button-background-color);
     background-color: var(--design-button-color);
 }
@@ -101,6 +104,7 @@
 }
 
 .btn__item_credit:hover {
+    transition-duration: 1s;
     color: var(--credit-font-color);
     background-color: var(--design-button-color);
 }
