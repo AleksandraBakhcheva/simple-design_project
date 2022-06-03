@@ -10,6 +10,13 @@
 /* main part */
 @import url(../styles/_cart_main.css);
 
+/* header */
+@import url(../styles/_header.css);
+
+/* footer */
+@import url(../styles/_footer.css);
+
+
 /* media queries */
 @media screen and (max-width:1150px) {
 

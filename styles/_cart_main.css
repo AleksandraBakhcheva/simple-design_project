@@ -8,7 +8,9 @@
 
 .return {
     text-align: end;
-    margin-top: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
 }
 
 .return__a {
