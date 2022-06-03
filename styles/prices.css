@@ -4,20 +4,20 @@
 @import url(https://necolas.github.io/normalize.css/latest/normalize.css);
 
 /* variables and general */
-@import url(../styles/_variables.css);
-@import url(../styles/_general.css);
+@import url(/styles/_variables.css);
+@import url(/styles/_general.css);
 
 /* header */
-@import url(../styles/_header.css);
+@import url(/styles/_header.css);
 
 /* footer */
-@import url(../styles/_footer.css);
+@import url(/styles/_footer.css);
 
 /* questions */
-@import url(../styles/_questions_part.css);
+@import url(/styles/_questions_part.css);
 
 /* main part */
-@import url(../styles/_prices.css);
+@import url(/styles/_prices.css);
 
 /* media queries */
 
