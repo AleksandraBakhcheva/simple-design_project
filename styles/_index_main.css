@@ -402,6 +402,9 @@
     padding-left: 130px;
     padding-top: 60px;
 }
+.test__scroll {
+    scroll-behavior: smooth;
+}
 .test__header {
     font-weight: 600;
     font-size: 1.875em;
