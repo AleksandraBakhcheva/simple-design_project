@@ -1,7 +1,7 @@
 /* header styles */
 
 .header-container {
-    width: 90%;
+    width: auto;
     margin: auto;
     display: flex;
     align-items: center;
