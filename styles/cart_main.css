@@ -116,7 +116,7 @@
     font-weight: 600;
     font-size: 1.875rem;
     line-height: 2.31rem;
-    color: #262626;
+    color: var(--main-font-color);
 }
 
 .main-items__details {

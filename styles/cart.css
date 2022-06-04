@@ -46,6 +46,10 @@
     .left__title {
         font-size: 1.5rem;
     }
+
+    .main-items {
+        padding: 2rem 0.5rem 1rem 0.5rem;
+    }
 }
 
 

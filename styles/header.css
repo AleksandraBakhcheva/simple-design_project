@@ -15,12 +15,11 @@
 
 .header-container__nav {
     display: flex;
+    gap: 25px;
     transition-duration: 1s;
 }
 
 .header-container__nav a {
-    margin-left: 25px;
-    margin-right: 25px;
     font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 400;
@@ -98,13 +97,22 @@
     color: var(--button-background-color);
 }
 
+@media screen and (max-width:1150px) {
+    .header-container {
+        width: 95%;
+        margin: auto;
+    }
+}
+
 @media screen and (max-width:767px) {
+
     .header-container__phone {
         display: none;
     }
 
     .header-container__nav {
         flex-direction: column;
+        gap: 10px;
     }
 
     .header-container {
@@ -112,3 +120,5 @@
         align-items: center;
     }
 }
+
+@media screen and (max-width:480px)

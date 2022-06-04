@@ -36,6 +36,8 @@
 }
 
 @media screen and (max-width:767px) {
+
+
     .main__spec {
         font-size: 0.9375rem;
     }
