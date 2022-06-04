@@ -73,7 +73,7 @@
 @media screen and (max-width: 480px) {
     .questions__box {
         margin-bottom: 4.94rem;
-        padding-left: 4.375rem;
+        padding-left: 3.375rem;
         padding-right: 4.125rem;
     }
 
@@ -84,10 +84,11 @@
     }
 
     .questions__item {
-        width: 19.25rem;
+        width: 17rem;
         height: 3.06rem;
         font-size: 0.937em;
         line-height: 1.25rem;
+        margin: 21px auto;
     }
 
     .questions__item img {
@@ -96,5 +97,11 @@
 
     .questions__text {
         font-size: 0.937em;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .questions__item {
+        width: 12rem;
     }
 }
