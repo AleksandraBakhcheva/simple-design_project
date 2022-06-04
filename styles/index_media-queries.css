@@ -6,7 +6,7 @@
         margin: 0;
         padding: 0;
     }
-    .cart__text, .header__scroll, .steps__image, .section__checklist img, .design__text, .item_hidden, .questions__text > hidden {
+    .cart__text, .header__scroll, .steps__image, .section__checklist img, .design__text, .item_hidden, .questions__text,.hidden {
         display: none;
     }
     .header__cart {
