@@ -47,7 +47,7 @@
     margin: auto;
 }
 
-.main__text {
+.main__spec {
     font-family: var(--add-font-family);
     font-style: normal;
     font-weight: 400;
@@ -56,18 +56,18 @@
     color: var(--black-font-color);
 }
 
-.main__text_bold {
+.main__spec_bold {
     font-weight: 500;
 }
 
-.price-total {
+.main-total__price {
     display: flex;
     margin-bottom: 3.125rem;
     justify-content: space-between;
     align-items: center;
 }
 
-.price-total__price {
+.main__spec_price {
     font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 500;
@@ -122,20 +122,21 @@
 }
 
 .add-services {
-    margin: 0 auto;
+    text-align: center;
 }
 
-.add-services__title {
-    font-family: var(--main-font-family);
-    font-style: normal;
-    font-weight: 700;
+.title_add {
+    /*font-family: var(--main-font-family);
+    font-style: normal;*/
     font-size: 2.5rem;
+    font-weight: 700;
     line-height: 3.0625rem;
     color: var(--main-font-color);
     text-align: center;
 }
 
 .pictures {
+    max-width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;

@@ -21,24 +21,25 @@
 
 /* media queries */
 
-@media screen and (max-width: 480px) {
-    .main__text {
-        font-size: 0.9375rem;
+
+
+@media screen and (max-width: 1150px) {
+
+    .main__spec {
+        font-size: 1.1rem;
     }
 
-    .title,
-    .add-services__title {
-        font-size: 0.9rem;
-    }
+    .title_add {
+        font-size: 2rem;
 
-    .figcaption {
-        font-size: 0.9375rem;
-        line-height: 1.5rem;
-        margin-top: 1rem;
     }
 }
 
 @media screen and (max-width:767px) {
+    .main__spec {
+        font-size: 0.9375rem;
+    }
+
     .title_left {
         margin-right: 0px;
     }
@@ -47,13 +48,28 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .title {
-        font-size: 1.5rem;
+    .title_left,
+    .title_right,
+    .title_add {
+        font-size: 1.8rem;
+        line-height: 1.5rem;
     }
 
-    .add-services__title {
-        font-size: 2rem;
-    }
 }
 
-@media screen and (max-width:1150px) {}
+@media screen and (max-width: 480px) {
+
+    .title_left,
+    .title_right,
+    .title_add {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+
+
+    .figcaption {
+        font-size: 0.9375rem;
+        line-height: 1.5rem;
+        margin-top: 1rem;
+    }
+}
