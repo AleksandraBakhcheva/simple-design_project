@@ -4,8 +4,8 @@
 }
 
 .main {
-    padding-top: 5rem;
-    padding-bottom: 9rem;
+    padding-top: 3rem;
+    padding-bottom: 7rem;
 }
 
 .columns {
@@ -126,8 +126,6 @@
 }
 
 .title_add {
-    /*font-family: var(--main-font-family);
-    font-style: normal;*/
     font-size: 2.5rem;
     font-weight: 700;
     line-height: 3.0625rem;
@@ -141,7 +139,6 @@
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 3rem;
-    /*overflow: hidden;*/
 }
 
 .add-services__item img {

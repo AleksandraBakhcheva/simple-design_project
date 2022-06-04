@@ -36,7 +36,10 @@
 }
 
 @media screen and (max-width:767px) {
-
+    .main {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
 
     .main__spec {
         font-size: 0.9375rem;
