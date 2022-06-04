@@ -17,7 +17,7 @@
 .questions__item {
     display: flex;
     align-items: center;
-    height: 12vh;
+    height: 5rem;
     margin-bottom: 21px;
     font-size: 1.25em;
     line-height: 24px;
