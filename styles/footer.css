@@ -9,6 +9,7 @@
     font-size: 0.9375rem;
     color: var(--black-font-color);
     background-color: var(--additional-font-color);
+    padding: 10px;
 }
 
 .footer-container__nav a {
