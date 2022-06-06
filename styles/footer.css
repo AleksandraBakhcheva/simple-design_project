@@ -37,6 +37,10 @@
     color: var(--button-background-color);
 }
 
+.footer-container__logo img {
+    width: 113px;
+}
+
 .footer-container__logo p {
     margin-top: 0px;
 }
@@ -54,6 +58,7 @@
 }
 
 .footer-container__phone img {
+    margin-bottom: -15px;
     margin-right: 15px;
     width: 1.25rem;
     height: 1.25rem;

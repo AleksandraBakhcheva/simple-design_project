@@ -71,6 +71,7 @@
     font-size: 0.9375rem;
     line-height: 1rem;
     border: none;
+    cursor: pointer;
     transition-duration: 0.7s;
 }
 
@@ -141,7 +142,7 @@
 }
 
 .main-items:hover {
-    border: 1px solid var(--button-background-color);
+    box-shadow: 0px 0px 0px 1px var(--button-background-color);
     border-radius: 0.9375rem;
 }
 
@@ -220,6 +221,10 @@
     display: flex;
     margin-top: 17px;
     align-items: center;
+}
+
+.styles__items label {
+    width: 30%;
 }
 
 .styles-select {
