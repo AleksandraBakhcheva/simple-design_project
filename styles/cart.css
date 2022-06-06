@@ -4,17 +4,17 @@
 @import url(https://necolas.github.io/normalize.css/latest/normalize.css);
 
 /* variables and general */
-@import url(_variables.css);
-@import url(_general.css);
+@import url(variables.css);
+@import url(general.css);
 
 /* header */
-@import url(_header.css);
+@import url(header.css);
 
 /* main part */
-@import url(_cart_main.css);
+@import url(cart_main.css);
 
 /* footer */
-@import url(_footer.css);
+@import url(footer.css);
 
 
 /* media queries */
