@@ -63,6 +63,7 @@
     left: 42vw;
     top: 0;
     border: none;
+    cursor: pointer;
     border-radius: 100px; 
     font-weight: 600;
     font-size: 0.937em;
@@ -226,6 +227,7 @@
     margin-right: 30px;
     padding: 27px 58px;
     border: none;
+    cursor: pointer;
     border-radius: 100px; 
     font-weight: 600;
     font-size: 0.937em;
@@ -301,6 +303,7 @@
 .checklist__button, .design__button, .test__button {
     padding: 27px 58px;
     border: none;
+    cursor: pointer;
     border-radius: 100px; 
     font-weight: 600;
     font-size: 0.937em;
@@ -377,6 +380,7 @@
     font-size: 0.737em;
     line-height: 18px;
     font-weight: 500;
+    cursor: pointer;
     border-radius: 100px;
     border: none;
     color: var(--button-background-color);
