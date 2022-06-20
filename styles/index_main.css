@@ -1,21 +1,24 @@
 /* styles for main part for index.html */
-
+.wrapper {
+    max-width: 100%;
+    margin: auto;
+}
 .section__header {
-    display: block;
-    width: 100vw;
-    height: 88vh;
+    max-width: 100%;
+    position: relative;
     overflow-x: hidden;
     overflow-y: hidden;
     color: var(--header-font-color) 50%;
-    background: url(../assets/index_pictures/background.png) no-repeat;
+}
+.header__background {
+    width: 100%;
 }
 .header__cart {
-    position: relative;
-    width: 28vw;
-    height: 15.5vh;
-    left: 76vw;
-    top: 6vh;
-    right: 0;
+    position: absolute;
+    height: 119px;
+    width: 467px;
+    top: 5%;
+    right: -10%;
     border-radius: 100px;
     background: var(--main-font-color);
     box-shadow: 0px 4px 36px var(--box-shadow-color);
@@ -84,7 +87,7 @@
     align-items: flex-start;
     margin-top: 153px;
     margin-left: 134px;
-    width: 1176px;
+    /* width: 1176px; */
     height: 204px;
     border-radius: 50px;
     background: var(--additional-font-color);
@@ -110,7 +113,7 @@
     left: -1.5vw;
 }
 .item__text {
-    width: 13vw;
+    /* width: 13vw; */
     margin-left: -15px;
     font-size: 1.25em;
     line-height: 2px;
@@ -123,7 +126,7 @@
 .section__steps {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 100vw;
+    /* width: 100vw; */
     margin-top: 200px;
 }
 .steps__numbers {
@@ -191,7 +194,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    width: 100vw;
+    /* width: 100vw; */
 }
 .options {
     margin-left: 134px;
@@ -333,22 +336,26 @@
     display: inline-block;
     position: relative;
     content: '';
-    width: 69vw;
+    /* width: 69vw; */
     height: 1px;
     margin-left: 20px;
     vertical-align: middle;
     background-color: var(--design-line-color);
 }
 .line_length::after {
-    width: 70vw;
+    /* width: 70vw; */
 }
 .line_resize::after {
-    width: 56vw;
+    /* width: 56vw; */
+}
+.design__container {
+    max-width: 100%;
 }
 .container__line {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 0 80px 80px 130px;
+    
 }
 .container__item {
     margin: 0;
@@ -363,7 +370,8 @@
 }
 .item__font {
     display: flex;
-    width: 25vw;
+    max-width: 85%;
+    /* width: 25vw; */
     margin-top: 8px;
     justify-content: space-between;
     align-items: center;
@@ -401,6 +409,7 @@
 }
 .section__test {
     background: url(../assets/index_pictures/background_test.png) no-repeat;
+    background-size: 100%;
     height: 60vh;
     margin-top: 110px;
     padding-left: 130px;

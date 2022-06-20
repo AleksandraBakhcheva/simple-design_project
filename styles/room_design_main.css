@@ -1,4 +1,7 @@
 /* styles for room_design.html */
+body {
+    min-width: fit-content;
+}
 
 .design__header {
     margin-bottom: 33px;

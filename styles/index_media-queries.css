@@ -1,6 +1,6 @@
 /* media queries for index.html */
 
-@media screen and (max-width: 280px), screen and (min-width: 281px) and (max-width: 320px), screen and (min-width: 321px) and (max-width: 375px), screen and (min-width: 376px) and (max-width: 414px), screen and (min-width: 415px) and (max-width: 480px), screen and (min-width: 481px) and (max-width: 600px), screen and (min-width: 601px) and (max-width: 640px) {
+/* @media screen and (max-width: 280px), screen and (min-width: 281px) and (max-width: 320px), screen and (min-width: 321px) and (max-width: 375px), screen and (min-width: 376px) and (max-width: 414px), screen and (min-width: 415px) and (max-width: 480px), screen and (min-width: 481px) and (max-width: 600px), screen and (min-width: 601px) and (max-width: 640px) {
     body {
         width: fit-content;
         margin: 0;
@@ -841,4 +841,4 @@
     .section__test {
         height: 55vh;
     }
-}
+} */
