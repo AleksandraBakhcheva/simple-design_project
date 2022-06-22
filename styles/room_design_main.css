@@ -1,71 +1,68 @@
 /* styles for room_design.html */
-body {
-    min-width: fit-content;
-}
 
 .design__header {
     margin-bottom: 33px;
     text-align: center;
     font-weight: 700;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     line-height: 49px;
 }
 .design__text {
     text-align: center;
-    font-size: 1.25em;
+    font-size: 1.25rem;
     line-height: 30px;
     opacity: 70%;
 }
 .container__header {
-    margin: 35px 80px 45px 130px;
-    font-size: 1.875em;
+    margin: 3% 0 3% 10%;
+    font-size: 1.875rem;
     line-height: 37px;
 }
 .container__header::after {
     display: inline-block;
     position: relative;
     content: '';
-    width: 69vw;
+    min-width: 75%;
     height: 1px;
     margin-left: 20px;
     vertical-align: middle;
     background-color: var(--design-line-color);
 }
 .line_length::after {
-    width: 70vw;
+    min-width: 76%;
 }
 .line_resize::after {
-    width: 56vw;
+    min-width: 66%;
 }
 .line_modified::after {
-    width: 71vw;
+    min-width: 76%;
 }
 .line_change::after {
-    width: 74vw;
+    min-width: 78%;
 }
 .container__line {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 0 80px 80px 130px;
+    margin: 3% 0 3% 10%;
 }
 .container__item {
+    max-width: fit-content;
     margin: 0;
 }
 .item__line {
     position: relative;
-    bottom: 5vh;
-    left: 2.2vw;
+    bottom: 10%;
+    left: 5%;
 }
 .item__line > img:hover {
     border: 2px solid var(--hover-line-color);
 }
 .item__font {
     display: flex;
-    width: 25vw;
     margin-top: 8px;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.25em;
+    font-size: 1.25rem;
     line-height: 24px;
     font-weight: 600;
     color: var(--design-room-color);
@@ -75,7 +72,7 @@ body {
 }
 .item__button {
     padding: 10px 35px 20px 35px;
-    font-size: 0.737em;
+    font-size: 0.737rem;
     line-height: 18px;
     font-weight: 500;
     cursor: pointer;
