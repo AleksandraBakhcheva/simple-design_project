@@ -22,23 +22,10 @@
     display: inline-block;
     position: relative;
     content: '';
-    min-width: 75%;
+    min-width: 98%;
     height: 1px;
-    margin-left: 20px;
     vertical-align: middle;
     background-color: var(--design-line-color);
-}
-.line_length::after {
-    min-width: 76%;
-}
-.line_resize::after {
-    min-width: 66%;
-}
-.line_modified::after {
-    min-width: 76%;
-}
-.line_change::after {
-    min-width: 78%;
 }
 .container__line {
     display: grid;
