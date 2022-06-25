@@ -21,6 +21,9 @@
     color: var(--cart-font-hover);
     text-decoration: none;
 }
+.test__scroll {
+    scroll-behavior: smooth;
+}
 
 .footer-container__terms a {
     display: flex;
@@ -31,6 +34,7 @@
     color: var(--cart-font-hover);
     text-decoration: none;
 }
+
 
 .footer-container__nav a:hover,
 .footer-container__terms a:hover {
@@ -43,6 +47,11 @@
 
 .footer-container__logo p {
     margin-top: 0px;
+    color: var(--cart-font-hover);
+}
+
+.logo__nodecoration {
+    text-decoration: none;
 }
 
 .footer-container__phone {
