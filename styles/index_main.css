@@ -87,6 +87,7 @@
     margin-top: 12%;
     margin-left: 7.5%;
     width: 85%;
+    min-height: 12vh;
     border-radius: 50px;
     background: var(--additional-font-color);
 }
