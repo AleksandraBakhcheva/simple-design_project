@@ -1,6 +1,6 @@
 /* media queries for index.html */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px), screen and (min-width: 321px) and (max-width: 480px) {
     .section__header {
         background: url(../assets/index_pictures/background_mobile.png) no-repeat;
         background-size: cover;
@@ -15,20 +15,18 @@
     .header__title {
         margin: 30% auto;
     }
-    .header__button {
-        margin-top: 5%;
-    }
     .numbers {
         font-size: 3rem;
     }
-    .numbers__text, .options__text, .checklist__text, .design__text, .questions__item, .test__text, .questions__text {
+    .numbers__text, .options__text, .checklist__text, .design__text, .item__font .questions__item, .test__text, .questions__text {
         font-size: 1rem;
     }
     .header__cart {
         background: none;
     }
     .cart__icon {
-        min-width: 30%;
+        width: 30%;
+        height: 70%;
         left: 20%;
         bottom: 22%;
     }
@@ -41,9 +39,13 @@
         display: none;
     }
     .header__button, .options__button, .checklist__button, .design__button, .test__button {
-        left: 25%;
         padding: 19px 36px;
         margin-bottom: 3%;
+    }
+    .header__button, .design__button {
+        width: 70%;
+        left: 15%;
+        margin: 3% 0;
     }
     .section__steps, .steps__numbers {
         grid-template-columns: 1fr;
@@ -99,19 +101,25 @@
     }
     .container__line {
         grid-template-columns: 1fr;
-        max-width: 90%;
-        margin: 0 auto;
+        margin: 0;
     }
-    .container__item, .container__item img {
+    .container__item, .item__font, .container__item img {
         max-width: 90%;
-        margin: 0 5%;
     }
-    .design__header, .design__button {
-        max-width: 90%;
-        left: 9%;
+    .container__item {
+        margin: 2% 0 2% 9%;
     }
     .item__button {
-        padding: 5px 25px 0px 25px;
+        padding: 7px 25px 6px 25px;
+    }
+    .item__line {
+        display: none;
+    }
+    .item__font > p {
+        padding-left: 0;
+    }
+    .container__header::after {
+        min-width: 88%;
     }
     .section__test {
         height: 76vh;
@@ -146,6 +154,7 @@
         text-align: center;
         margin: 0 auto;
         max-width: 92%;
+        font-size: 1.5rem;
     }
     .header__title {
         margin: 30% auto;
@@ -166,14 +175,15 @@
     }
     .icon_position {
         top: 22%;
-        left: 31%;
+        left: 29%;
     }
     .steps__image, .cart__text, .header__conditions, .design__text, .item__line, .hidden {
         display: none;
     }
-    .header__button, .options__button, .checklist__button, .design__button, .test__button {
-        left: 38%;
-        margin-bottom: 3%;
+    .header__button, .design__button {
+        width: 50%;
+        left: 25%;
+        margin: 3% 0;
     }
     .section__steps, .steps__numbers {
         grid-template-columns: 1fr;
@@ -224,24 +234,32 @@
     .checklist__text {
         padding: 0;
     }
+    .item__font {
+        font-size: 0.7rem;
+    }
     .container__line {
         grid-template-columns: 1fr 1fr;
-        max-width: 90%;
-        margin: 0 auto;
+        margin: 0;
     }
-    .container__item, .container__item img {
+    .container__item, .item__font, .container__item img {
         max-width: 90%;
-        margin: 0 5%;
     }
-    .design__header, .design__button {
-        max-width: 90%;
-        left: 9%;
+    .container__item {
+        margin: 2% 0 2% 9%;
     }
     .item__button {
-        padding: 5px 25px 0px 25px;
+        padding: 7px 25px 6px 25px;
+    }
+    .item__line {
+        display: none;
+    }
+    .item__font > p {
+        padding-left: 0;
+    }
+    .container__header::after {
+        min-width: 98%;
     }
     .section__test {
-        height: 76vh;
         background: url(../assets/index_pictures/background_test_mobile.png) no-repeat;
         background-size: cover;
         max-width: 100%;
@@ -250,13 +268,13 @@
     .test__header {
         font-size: 1.5rem;
     }
+    .test__button {
+        margin-bottom: 5%;
+    }
     .questions__box {
         max-width: 90%;
         padding: 0;
         margin: 0 auto;
-    }
-    .questions__item {
-        height: 15vh;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 1279px) {
@@ -264,6 +282,7 @@
         text-align: center;
         margin: 0 auto;
         max-width: 92%;
+        font-size: 1.5rem;
     }
     .header__title {
         margin: 30% auto;
@@ -289,9 +308,10 @@
     .steps__image, .cart__text, .header__conditions, .design__text, .item__line, .hidden {
         display: none;
     }
-    .header__button, .options__button, .checklist__button, .design__button, .test__button {
-        left: 38%;
-        margin-bottom: 3%;
+    .header__button {
+        width: 50%;
+        margin: 0 25% 3%;
+
     }
     .section__steps, .steps__numbers {
         grid-template-columns: 2fr;
@@ -342,21 +362,30 @@
     .checklist__text {
         padding: 0;
     }
+    .item__font {
+        font-size: 0.6rem;
+    }
     .container__line {
-        grid-template-columns: 1fr 1fr;
-        max-width: 90%;
-        margin: 0 auto;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0;
     }
-    .container__item, .container__item img {
+    .container__item, .item__font, .container__item img {
         max-width: 90%;
-        margin: 0 5%;
     }
-    .design__header, .design__button {
-        max-width: 90%;
-        left: 9%;
+    .container__item {
+        margin: 2% 0 2% 9%;
     }
     .item__button {
-        padding: 5px 25px 0px 25px;
+        padding: 7px 25px 6px 25px;
+    }
+    .item__line {
+        display: none;
+    }
+    .item__font > p {
+        padding-left: 0;
+    }
+    .container__header::after {
+        min-width: 98%;
     }
     .section__test {
         height: 30vh;
@@ -374,4 +403,10 @@
     .questions__item {
         height: 10vh;
     }
+}
+@media screen and (max-width: 320px) {
+    .cart__icon {
+        width: 30%;
+        height: 62%;
+}
 }

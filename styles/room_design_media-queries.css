@@ -72,10 +72,6 @@
     .container__header::after {
         min-width: 98%;
     }
-    .footer-container__phone img {
-        margin-bottom: -23%;
-        margin-right: 87%;
-    }
 }
 @media screen and (min-width: 769px) and (max-width: 1279px) {
     .design__header, .container__header {
@@ -111,9 +107,5 @@
     }
     .container__header::after {
         min-width: 98%;
-    }
-    .footer-container__phone img {
-        margin-bottom: -23%;
-        margin-right: 87%;
     }
 }

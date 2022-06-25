@@ -22,9 +22,8 @@
     display: inline-block;
     position: relative;
     content: '';
-    min-width: 98%;
+    min-width: 94%;
     height: 1px;
-    vertical-align: middle;
     background-color: var(--design-line-color);
 }
 .container__line {
@@ -39,7 +38,7 @@
 .item__line {
     position: relative;
     bottom: 10%;
-    left: 5%;
+    left: 8%;
 }
 .item__line > img:hover {
     border: 2px solid var(--hover-line-color);
