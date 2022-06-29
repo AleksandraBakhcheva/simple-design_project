@@ -32,6 +32,12 @@
     .main-items {
         padding: 2rem 1rem 2rem;
     }
+
+    .main-items__price,
+    .order__price,
+    .order__items {
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width: 767px) {
