@@ -3,7 +3,7 @@
 Website for apartments' design 🛋
 
 ## Description
-<p>This landing website was developed for an apartment design agency in Kazakhstan where you can order one of the standard layouts of any room from the available catalog and automatically calculate the cost of the design, depending on the selected services. It also shows the general information about the agency, ways of possible cooperation, pcices policy, frequently asked questions and other .</p>
+<p>This landing website was developed for an apartment design agency in Kazakhstan where you can order one of the standard layouts of any room from the available catalog and automatically calculate the cost of the design, depending on the selected services. It also shows the general information about the agency, ways of possible cooperation, pcices policy, frequently asked questions and other solutions for potential customers.</p>
 
 ## Screens
 <img width="820" alt="homepage" src="https://user-images.githubusercontent.com/76097160/224915079-fc54fa91-900c-4cca-957f-064e2f5eea1d.png"> <img width="820" alt="homepage" src="https://user-images.githubusercontent.com/76097160/224915369-b7c40892-4e80-459d-a951-22ed0ecc2d2c.png"> <img width="820" alt="prices" src="https://user-images.githubusercontent.com/76097160/224915325-a3b2705a-f39d-463c-b8be-d8016d8313d0.png"> <img width="820" alt="catalog" src="https://user-images.githubusercontent.com/76097160/224917016-37856175-fb08-407e-9bf7-adb340b1b21b.png"> <img width="820" alt="cart" src="https://user-images.githubusercontent.com/76097160/224917059-2ed082f3-731f-4adf-b2de-c0c4325fa618.png"> <img width="820" alt="design" src="https://user-images.githubusercontent.com/76097160/224915266-016f7f7d-dbf4-414a-94b5-dcc392b3b4ed.png">
