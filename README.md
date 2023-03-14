@@ -1,12 +1,12 @@
-# Mastering the Art of Cooking
+# Simple Design Project
 
-Application for recipes search 🍽 
+Application for apartments' design 🛋
 
 ## Description
 <p>If you want to learn how to cook something new, please try our app. This app allows you to search for recipes of interest on demand and save them to your favorites. There is possibility to register in order not to lose the recipes you like. App also allows you to find video instructions, print out the recipes and save yourself a shopping list of the necessary ingredients.</p>
 
 ## Screens
-<img width="400" alt="homepage" src="https://user-images.githubusercontent.com/76097160/224915079-fc54fa91-900c-4cca-957f-064e2f5eea1d.png"> <img width="400" alt="homepage" src="https://user-images.githubusercontent.com/76097160/224915369-b7c40892-4e80-459d-a951-22ed0ecc2d2c.png"> <img width="150" alt="mobile" src="https://user-images.githubusercontent.com/76097160/224915325-a3b2705a-f39d-463c-b8be-d8016d8313d0.png"> <img width="250" alt="favourites" src="https://user-images.githubusercontent.com/76097160/224917016-37856175-fb08-407e-9bf7-adb340b1b21b.png"> <img width="400" alt="recipe" src="https://user-images.githubusercontent.com/76097160/224917059-2ed082f3-731f-4adf-b2de-c0c4325fa618.png"> <img width="150" alt="mobile" src="https://user-images.githubusercontent.com/76097160/224915266-016f7f7d-dbf4-414a-94b5-dcc392b3b4ed.png">
+<img width="800" alt="homepage" src="https://user-images.githubusercontent.com/76097160/224915079-fc54fa91-900c-4cca-957f-064e2f5eea1d.png"> <img width="800" alt="homepage" src="https://user-images.githubusercontent.com/76097160/224915369-b7c40892-4e80-459d-a951-22ed0ecc2d2c.png"> <img width="600" alt="prices" src="https://user-images.githubusercontent.com/76097160/224915325-a3b2705a-f39d-463c-b8be-d8016d8313d0.png"> <img width="600" alt="catalog" src="https://user-images.githubusercontent.com/76097160/224917016-37856175-fb08-407e-9bf7-adb340b1b21b.png"> <img width="600" alt="cart" src="https://user-images.githubusercontent.com/76097160/224917059-2ed082f3-731f-4adf-b2de-c0c4325fa618.png"> <img width="600" alt="design" src="https://user-images.githubusercontent.com/76097160/224915266-016f7f7d-dbf4-414a-94b5-dcc392b3b4ed.png">
 
 ## Technology stack 
 <p align="left">
