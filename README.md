@@ -21,4 +21,4 @@ Website for apartments' design 🛋
 [![Contributors](https://contrib.rocks/image?repo=AleksandraBakhcheva/simple_design_project)](https://github.com/AleksandraBakhcheva/simple_design_project/graphs/contributors)
 
 ## Project demo
-<a target="_blank" href="https://aleksandrabakhcheva.github.io/simple_design_project/">Click Demo</a>
+<a href="https://aleksandrabakhcheva.github.io/simple-design_project/">Click Demo</a>
